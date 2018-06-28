@@ -18,4 +18,4 @@ app.get('/', (req, res) => {
 server.listen(PORT,function(){
 console.log("Listening on port ",PORT)});
 
-console.log("checking complete");
+console.log("checking complete ",process.env.DATABASE_URL);
